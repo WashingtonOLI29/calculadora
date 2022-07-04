@@ -24,7 +24,7 @@ export default class App extends Component {
     }
 
     const currentValue = clearDisplay ? '' : this.state.displayValue
-    const displayValue = currentValue + n
+    const displayValue = currentValue + n;
     this.setState({ displayValue, clearDisplay: false })
 
     if (n !== '.') {
